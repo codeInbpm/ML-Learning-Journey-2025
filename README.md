@@ -1,5 +1,4 @@
 # ML-Learning-Journey-2025
-# ML-Learning-Journey-2025
 
 🚀 **2025 机器学习・深度学习・大模型全路线学习之旅**  
 > 本仓库记录从零基础到精通的完整学习路径：数据处理 → 传统ML → 深度学习 → CV → NLP → 大模型 → MLOps。  
