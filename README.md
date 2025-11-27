@@ -130,7 +130,7 @@ MIT License - 自由使用、修改、分享。详情见 [LICENSE](LICENSE)。
 
 ## 联系方式
 - **作者**：brian
-- **邮箱**：brainwang@gmail.com  
+- **邮箱**：brainwang1987@gmail.com  
 - **社区**：欢迎加入 QQ 群/微信群（后续添加），或在 issue 留言。  
 - **Demo 预览**：后续项目上线后，会放 Colab 链接（如游戏数字识别在线 demo）。
 
