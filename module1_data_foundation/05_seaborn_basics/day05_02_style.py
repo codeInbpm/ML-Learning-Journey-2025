@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # 1. 加载数据 (使用你本地的文件)
-train = pd.read_csv("../data/titanic.csv")
+train = pd.read_csv("../../data/titanic.csv")
 
 # 2. 设置主题
 sns.set_theme(style="darkgrid", palette="husl")

@@ -1,7 +1,7 @@
 # 缺失值填充策略
 
 import pandas as pd
-df = pd.read_csv("../data/titanic.csv")
+df = pd.read_csv("../../data/titanic.csv")
 
 # 1. 先提取Title
 df['Title'] = df['Name'].str.extract(r' ([A-Za-z]+)\.', expand=False)

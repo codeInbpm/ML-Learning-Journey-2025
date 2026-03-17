@@ -42,12 +42,13 @@ Seaborn 是 Matplotlib 的**统计可视化高层 API**。
 和 Matplotlib 关系：Seaborn 负责“统计 + 美学”，Matplotlib 负责“微调”。
 
 **代码**（已验证）：
+
 ```python
 import seaborn as sns
 import matplotlib.pyplot as plt
 import pandas as pd
 
-train = pd.read_csv('../data/titanic.csv')
+train = pd.read_csv('../../data/titanic.csv')
 print(train.head())
 ```
 

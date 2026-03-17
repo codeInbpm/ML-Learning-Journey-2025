@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib
 matplotlib.use('TkAgg')
 
-train = pd.read_csv('../data/titanic.csv')
+train = pd.read_csv('../../data/titanic.csv')
 sns.set_theme(style="whitegrid")
 sns.jointplot(data=train, x="Age", y="Fare", hue="Survived", palette="husl")
 

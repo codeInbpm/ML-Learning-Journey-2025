@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("../data/titanic.csv")
+df = pd.read_csv("../../data/titanic.csv")
 
 # 1. 提取称呼 Title
 df['Title'] = df['Name'].str.extract(r' ([A-Za-z]+)\.', expand=False)

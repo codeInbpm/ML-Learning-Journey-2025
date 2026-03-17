@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 print("✅ 环境安装成功！pandas 版本：", pd.__version__)
 
 # 1. 读取数据（把 titanic.csv 放进 data 文件夹）
-df = pd.read_csv("../data/titanic.csv")    # .. 表示上一级目录
+df = pd.read_csv("../../data/titanic.csv")    # .. 表示上一级目录
 
 # 2. 看看长啥样
 print("数据形状：", df.shape)

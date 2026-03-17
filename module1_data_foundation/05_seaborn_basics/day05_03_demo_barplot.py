@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib
 matplotlib.use('TkAgg')
 
-train = pd.read_csv('../data/titanic.csv')
+train = pd.read_csv('../../data/titanic.csv')
 
 sns.set_theme(style="darkgrid", palette="husl")
 plt.rcParams['font.sans-serif'] = ['SimHei']

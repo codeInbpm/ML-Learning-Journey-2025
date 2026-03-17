@@ -7,7 +7,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 
 # 1. 加载数据
-train = pd.read_csv('../data/titanic.csv')
+train = pd.read_csv('../../data/titanic.csv')
 
 # 2. 准备数据：heatmap 需要数值型数据
 # 我们选取几个关键的数值列计算相关性系数 (.corr())

@@ -7,7 +7,7 @@ import matplotlib
 matplotlib.use('TkAgg')   # 确保窗口弹出
 
 # 只加载你自己的文件
-train = pd.read_csv('../data/titanic.csv')
+train = pd.read_csv('../../data/titanic.csv')
 
 # 主题 + 中文
 sns.set_theme(style="darkgrid", palette="husl")

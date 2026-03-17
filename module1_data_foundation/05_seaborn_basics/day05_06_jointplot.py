@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib
 matplotlib.use('TkAgg')
 
-train = pd.read_csv('../data/titanic.csv')
+train = pd.read_csv('../../data/titanic.csv')
 sns.set_theme(style="whitegrid")
 
 print("🚀 Jointplot 学习开始：探索年龄与票价的关系")

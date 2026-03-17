@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # 1. 读取原始数据
-df = pd.read_csv("../data/titanic.csv")   # 改成你的路径
+df = pd.read_csv("../../data/titanic.csv")   # 改成你的路径
 
 # 2. 先提取 Title（用于更精准填充年龄）
 df['Title'] = df['Name'].str.extract(r' ([A-Za-z]+)\.', expand=False)

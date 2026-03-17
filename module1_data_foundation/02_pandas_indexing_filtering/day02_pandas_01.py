@@ -1,7 +1,7 @@
 # 布尔索引高级玩法
 
 import pandas as pd
-df = pd.read_csv("../data/titanic.csv")
+df = pd.read_csv("../../data/titanic.csv")
 
 # 1. 同时满足3个条件：女性 + 头等舱 + 年龄<30
 female_first_young = df[(df['Sex'] == 'female') &

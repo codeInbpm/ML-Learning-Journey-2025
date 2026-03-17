@@ -7,7 +7,7 @@ import matplotlib
 matplotlib.use('TkAgg')          # ← 关键修复！强制弹出窗口（VS Code 最稳）
 
 # 加载数据
-train = pd.read_csv('../data/titanic.csv')          # 你的数据
+train = pd.read_csv('../../data/titanic.csv')          # 你的数据
 titanic = sns.load_dataset("titanic")               # Seaborn 自带，官方给的测试数据（可以换成自己的文件，如demo03）
 
 # 中文不乱码（必须放最前面）

@@ -50,10 +50,10 @@
      git push origin main
      ```
 
-- **数据处理示例**（第1天）  
+- **数据处理示例**（第1天）
   ```python
   import pandas as pd
-  df = pd.read_csv("module1_data_foundation/data/titanic.csv")
+  df = pd.read_csv("data/titanic.csv")
   print(df.head())  # 探索数据
   ```
 
